@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Rentals - RHYNO EV</title>
+        <meta name="description" content="Explore rental options for electric vehicles with RHYNO EV. Rent SE03, SE03 Lite, and SE03 Max for your transportation needs." />
+        <meta name="keywords" content="Rentals, RHYNO EV, RHYNO, EV" />
+        <meta name="author" content="RHYNO EV" />
+        <link rel="icon" type="image/png" href="./images/black-logo.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./styles/fontawesome/css/fontawesome.css" rel="stylesheet" />
+        <link href="./styles/fontawesome/css/brands.css" rel="stylesheet" />
+        <link href="./styles/fontawesome/css/solid.css" rel="stylesheet" />
+        <link href="./styles/styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <meta property="og:title" content="Rentals - RHYNO EV" />
+        <meta property="og:description" content="Explore rental options for electric vehicles with RHYNO EV. Rent SE03, SE03 Lite, and SE03 Max for your transportation needs." />
+        <meta property="og:image" content="./images/black-logo.png" />
+        <meta property="og:url" content="./rentals.html" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Rentals - RHYNO EV" />
+        <meta name="twitter:description" content="Explore rental options for electric vehicles with RHYNO EV. Rent SE03, SE03 Lite, and SE03 Max for your transportation needs." />
+        <meta name="twitter:image" content="./images/black-logo.png" />
+    </head>
+    <body>
+        <header>
+            <div class="headerc">
+                <div class="logo">
+                    <a href="index.html"><img src="./images/black-logo.png" alt="Rhyno EV" /></a>
+                </div>
+                <div class="links midsec">
+                    <a href="index.html">Home</a>
+                    <a href="about-us.html">About us</a>
+                    <a id="products" href="javascript:void(0)">Products <i class="fa fa-caret-down"></i></a>
+                    <a href="contact-us.html">Contact us</a>
+                    <a href="pre-book.html">Pre-book now</a>
+                </div>
+                <div class="links right">
+                    <a href="https://www.linkedin.com/company/rhyno-wheels/" target="_blank" class="fa fa-brands fa-linkedin"></a>
+                    <a href="https://www.instagram.com/rhyno.in/" target="_blank" class="fa fa-brands fa-instagram"></a>
+                    <a onclick="opennav()" target="_blank" class="fa fa-bars"></a>
+                </div>
+            </div>
+            <div id="productsection">
+                <div class="container">
+                    <div class="gridsection">
+                        <h2><a href="./products.html">Products</a></h2>
+                        <div class="linksecp"><a href="./SE03.html" onmouseover="changeImage(1)">SE03</a></div>
+                        <div class="linksecp"><a href="./SE03Lite.html" onmouseover="changeImage(2)">SE03 Lite</a></div>
+                        <div class="linksecp"><a href="./SE03Max.html" onmouseover="changeImage(3)">SE03 Max</a></div>
+                        <div class="linksecp"><a href="./compareall.html" onmouseover="changeImage(4)">Compare all</a></div>
+                    </div>
+                    <div>
+                        <img id="imgsecv" src="./images/blue.png" />
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav>
+            <div class="secnav">
+                <div class="timesx"><a class="fa fa-times" onclick="closenav()"></a></div>
+                <div class="flexsection">
+                    <a href="index.html" id="navl"><img src="./images/black-logo.png" alt="Rhyno EV" /></a>
+                </div>
+                <div><a href="index.html">Home</a></div>
+                <div><a href="about-us.html">About us</a></div>
+                <div><a href="about-us.html">About us</a></div>
+                <div><a onclick="$('#productsectionnav').slideToggle();">Products <i class="fa fa-caret-down"></i></a></div>
+                <div id="productsectionnav">
+                    <div class="container">
+                        <div class="gridsection">
+                            <h2><a href="./products.html">Products</a></h2>
+                            <div class="linksecp"><a href="./SE03.html">SE03</a></div>
+                            <div class="linksecp"><a href="./SE03Lite.html">SE03 Lite</a></div>
+                            <div class="linksecp"><a href="./SE03Max.html">SE03 Max</a></div>
+                            <div class="linksecp"><a href="./compareall.html">Compare all</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div><a href="contact-us.html">Contact us</a></div>
+                <div><a href="pre-book.html">Pre-book now</a></div>
+            </div>
+        </nav>
+        <main>
+            <div onclick="closenav()" id="sideclose"></div>
+            <div class="section">
+                <div class="frontline">
+                    <h1><span class="bword">RENTALS</span></h1>
+                    <div class="flexsection">
+                        <div class="aboutus">
+                            <p>
+                                Explore the roars of Rhyno at your own pace with our rental options! Test the waters with our flexible rental model, available for a week or a month, allowing you to experience the Rhyno first hand before
+                                committing. Simply visit our authorized dealerships to unlock this opportunity.
+                            </p>
+                            <p>
+                                Additionally, we're redefining campus commuting with our rental fleet tailored for college students. Navigate your daily commute effortlessly by renting Rhyno vehicles on an hourly basis through our
+                                user-friendly mobile app. Embrace the freedom to ride and explore a new dimension in sustainable and convenient transportation.
+                            </p>
+                            <h2 style="text-align: center;">Download our rental app</h2>
+                            <div class="flexsection">
+                                <a class="btn"><i class="fa fa-brands fa-google-play"></i> Android</a>
+                                <a class="btn"><i class="fa fa-brands fa-app-store"></i> Apple</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footerc">
+                <div class="gridsecf">
+                    <div><a href="privacy-policy.html">Privacy policy</a></div>
+                    <div><a href="refund-policy.html">Refund policy</a></div>
+                    <div><a href="website-policy.html">Website policy</a></div>
+                    <div><a href="contact-us.html">Contact us</a></div>
+                </div>
+                <div class="gridsecf">
+                    <div><a href="products.html">Products</a></div>
+                    <div><a href="https://www.linkedin.com/company/rhyno-wheels/" target="_blank">Career</a></div>
+                    <div><a href="rentals.html">Rentals</a></div>
+                </div>
+                <div class="links">
+                    <div><a href="https://www.linkedin.com/company/rhyno-wheels/" target="_blank" class="fa fa-brands fa-linkedin"></a></div>
+                    <div><a href="https://www.instagram.com/rhyno.in/" target="_blank" class="fa fa-brands fa-instagram"></a></div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="./styles/script.js"></script>
+    </body>
+</html>
